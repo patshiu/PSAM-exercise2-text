@@ -1,0 +1,122 @@
+/* red: #D0021B */
+
+* {
+  border: 1px solid orange;
+  margin: -1px;
+}
+div {
+  border: 1px dashed blue;
+  margin: -1px;
+}
+
+body {
+  font-family: sans-serif;
+}
+/* Page 1 Styles
+---------------------------------- */
+#title-area h1 {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-right: 0.4rem;
+  margin-bottom: 0;
+  margin-left: 0.4rem;
+}
+
+#title-bottom h2 {
+  writing-mode: vertical-lr;
+	text-orientation: mixed;
+	transform: rotate(180deg);
+  text-transform: uppercase;
+  margin-right: 0;
+}
+
+#title-bottom h3 {
+  margin: 0 0 0 0;
+  font-weight: lighter;
+}
+
+#leader-bottom h4, #leader-bottom h5, #leader-bottom h6 {
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}
+
+#leader-bottom h5 {
+  font-weight: lighter;
+	font-size: 2.18rem;
+	margin: 0 1.5rem 0 0;
+}
+
+#leader-bottom h6 {
+  font-size: 1.2rem;
+  margin: 0;
+  border-right: 0.5rem solid black;
+}
+
+.body-text {
+  padding-right: 0.8rem;
+}
+
+/* Page 2 Styles
+---------------------------------- */
+
+.caption-year h3 {
+  margin: 0 0.2rem 0 0;
+}
+.caption-year {
+ text-transform: uppercase;
+ font-size: 1.6rem;
+ margin-bottom: 0.2rem;
+}
+
+.caption-title span {
+  border-top: 0.5rem solid red;
+}
+
+.caption-text {
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+}
+
+/* Page 3 Styles
+---------------------------------- */
+#page-3 h1 {
+  text-transform: uppercase;
+  border-top: 0.5rem solid #D0021B;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  margin: 0 0 0 0.5rem;
+}
+
+#page-3-bottom p {
+  margin-top: 0;
+  Padding-left: 20%;
+}
+
+
+/* Page 4 Styles
+---------------------------------- */
+#page-4-right p {
+  margin: 0 0.5rem;
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
+#more-info p {
+  color: #D0021B;
+  font-size: 0.8rem;
+}
+
+#return-slip {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
+
+#return-slip-header h4 {
+  text-align: right;
+}
+#return-slip-address-form .right-side{
+ padding: 2rem 1rem 0 0;
+ text-transform: uppercase;
+}
